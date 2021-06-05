@@ -1,0 +1,105 @@
+
+body {
+    background-image: linear-gradient(white, #21916f);
+}
+
+.rectangle {
+    height: 5pc;
+    width: 100%;
+    text-align: center;
+    font-size: 3pc;
+    font-weight: bold;
+    -webkit-filter: drop-shadow(5px 5px 5px #efb658);
+    filter: drop-shadow(5px 5px 2px #efb658);
+}
+
+#tab {
+    width: 70%;
+    height: 80%;
+    border-width: 5px;
+    border-style: none;
+}
+
+#myPhoto {
+    width: 14pc;
+    height: 28pc;
+    -webkit-filter: drop-shadow(5px 5px 5px#666666);
+    filter: drop-shadow(5px 5px 5px #666666);
+    opacity: .8;
+}
+#underline {
+    border-style: solid;
+    color: #efb658
+    width: 90%;
+    size: 4px;
+    filter: drop-shadow(5px 5px 3px #ffae28);
+}
+#detailsBox {
+    width: 30pc;
+    height: 23pc;
+    background-image: linear-gradient(to right, #efb658, #df1e00);
+    opacity: .7;
+    filter: drop-shadow(5px 5px 3px #666666);
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    line-height: 50px;
+    font-size: 2pc;
+}
+
+p {
+    font-family: ink free;
+    font-weight: bold;
+}
+
+.cont {
+    word-spacing: 30px;
+    text-align: center;
+    font-size: 1.4pc;
+    font-weight: bold;
+    filter: drop-shadow(5px 5px 3px #666666);
+}
+.link {
+    color: black;
+    font-weight: bold;
+}
+.link:hover {
+    color: green;
+}
+
+.menuBar {
+    background: #f5b642;
+    text-align: center;
+    filter: drop-shadow(5px 5px 3px #666666);
+    background-image: linear-gradient(to right, #df1e00, #efb658);
+    opacity: .8;
+}
+.menuBar ul {
+    display: inline-flex;
+    list-style: none;
+}
+.menuBar ul li {
+    width: 150px;
+    margin: 10px;
+}
+.menuBar ul li a {
+    text-decoration: none;
+    color: black;
+}
+.menuBar ul li a:hover {
+    background: rgb(252, 186, 3, .4);
+    border-radius: 3px;
+}
+.edu {
+    display: none;
+}
+.menuBar ul li:hover .edu {
+    display: block;
+    position: absolute;
+    background: rgb(122, 114, 111, .6);
+    margin-top: 15px;
+    margin-left: -15px;
+}
