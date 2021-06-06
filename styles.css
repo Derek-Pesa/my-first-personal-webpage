@@ -5,7 +5,7 @@ body {
 }
 
 .rectangle {
-    height: 5pc;
+    height: auto;
     width: 100%;
     text-align: center;
     font-size: 3pc;
